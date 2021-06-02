@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> PrimeiroFormulário </title>
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2? family = Nunito: wght @ 300 & display = swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <form action="" method="post" enctype="multipart/form-data">
+
+
+    <label for="nome"> Nome:</label>
+    <input type="text" id="nome" required autocomplete="nome" placeholder="Nome completo">
+
+    <label for="email"> Email:</label>
+    <input type="email" name="email" id="email" required autocomplete="email" placeholder="Email"><br><br>
+
+    <label for="idade"> Idade:</label>
+    <input type="number" name="idade" id="idade" min="12" max="100" placeholder="Idade" required inputmode="numeric">
+
+    <label for="data"> Data de nascimento:</label>
+    <input type="date" name="Data" id="data" required>
+    <label> Onde você possui conta? </label>
+    <label class="rede-social">
+      <input type="checkbox" name=" instagram" id="instagram">
+      instagram
+    </label>
+
+    <label class="rede-social">
+      <input type="checkbox" name="facebook" id="facebook">
+      facebook
+    </label>
+
+    <label class="rede-social">
+      <input type="checkbox" name="youtube" id="youtube">
+      youtube
+    </label>
+
+
+    <label class="sex"> Sexo:
+      <input type="radio" name="sexo" id="sexo">
+      Masculino
+    </label>
+
+    <label class="sex">
+      <input type="radio" name="sexo" id="sexo">
+      Feminino
+    </label>
+
+
+    <label> Cor dos Olhos:
+      <input type="color" name="cor-dos-olhos" id="cor-dos-olhos">
+    </label>
+
+    <label> Biografia:
+      <textarea></textarea>
+    </label>
+
+    <label for="foto"> Foto do Perfil:</label>
+    <input type="file" name="foto" id="foto" accept="image/*" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="number" name="telefone" id="telefone" required inputmode="numeric">
+
+    <label for="link"> Link do Perfil do Facebook:</label>
+    <input type="url" name="link" id="link" required>
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" required minlength="6" maxlength="8">
+
+    <button type="reset" name="reset">Limpar</button>
+    <button type="submit" name="submit">Enviar</button>
+    </label>
+
+
+
+
+</body>
+
+</html>

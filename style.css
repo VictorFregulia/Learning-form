@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0; 
+    background-color:#808080;
+    
+}
+ 
+body{
+    border: solid 3px black;
+    font-family:'Nunito', sans-serif;
+    display: inline-block;
+   margin: 15px;
+   padding: 15px;
+    
+
+    
+}
+
+input{
+    border-color:#00308F;
+    border-width: 3px;
+    margin: 10px 10px;
+    background-color:#EB9600;
+    padding: 10px 10px;
+   
+    
+    
+}
+::placeholder{
+    color: white;
+}
+
+textarea{
+    display: block;
+    margin: 7px;
+    border-color:#00308F ;
+    border-width: 3px;
+    background-color:#EB9600 ;
+    padding: 10px;
+    
+
+}
+ 
+form{
+    margin-left: 20px;
+    margin-top: 25px;
+    padding-top: 20px;
+    }
+
+    label{
+        display: block;
+
+    }
+    
+    .sex{
+        display: inline-block;
+    }
+
+    .rede-social{
+        display: block;
+        
+    }
+
+    
+    
+  button{
+     display: inline;
+     cursor: pointer;
+     font-size: 18px;
+     line-height: 18px;
+     border: 3px solid #EB9600;
+     background-color: #1985FF;
+     margin-right: 2px;
+     color: white;
+     border-radius: 10px;
+     height: 50px;
+     width: 70px;
+
+     
+ }
+
+ button:hover{
+     background-color:#9E6500;
+     color: black;
+     border: 3px solid #00308F;
+     height: 60px;
+     width: 80px;
+ }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
